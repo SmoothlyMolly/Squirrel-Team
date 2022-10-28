@@ -12,71 +12,48 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
-  <link href="./assets/Captura de pantalla 2022-10-17 053726.png" rel="apple-touch-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
-
-
 
   <title>Title page</title>  
 
-<link href="./main.82cfd66e.css" rel="stylesheet"></head>
+<link href="./main.3f6952e4.css" rel="stylesheet"></head>
 
-<body>
-
+<body class="">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
  <!-- Add your content of header -->
-<header class="">
-  <div class="navbar navbar-default visible-xs">
-    <button type="button" class="navbar-toggle collapsed">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a href="./index.html" class="navbar-brand">Mashup Template</a>
-  </div>
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-default">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-  <nav class="sidebar">
-    <div class="navbar-collapse" id="navbar-collapse">
-      <div class="site-header hidden-xs">
-          <a class="site-brand" href="./index.html" title="">
-            <img class="img-responsive site-logo" alt="" src="./assets/images/mashup-logo.svg">
-            Mashup Template
-          </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor.</p>
-      </div>
-      <ul class="nav">
-        <li><a href="./index.html" title="">Proyectos</a></li>
-        <li><a href="./about.html" title="">Equipo</a></li>
-        <li><a href="./services.html" title="">Ideas</a></li>
-        <li><a href="./Sistema.html" title="">Sistema</a></li>
-        <li><a href="./contact.html" title="">Contact</a></li>
-        <li><a href="./components.html" title="">Components</a></li>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="./index.html" title="">01 : Inicio</a></li>
+          <li><a href="./works.html" title="">02: Misiones</a></li>
+          <li><a href="./about.html" title="">03 : Equipo</a></li>
+          <li><a href="./contact.html" title="">04 : Contact</a></li>
+          <li><a href="./components.html" title="">05 : Components</a></li>
+        </ul>
 
-      </ul>
 
-      <nav class="nav-footer">
-        <p class="nav-footer-social-buttons">
-          <a class="fa-icon" href="https://www.instagram.com/" title="">
-            <i class="fa fa-instagram"></i>
-          </a>
-          <a class="fa-icon" href="https://dribbble.com/" title="">
-            <i class="fa fa-dribbble"></i>
-          </a>
-          <a class="fa-icon" href="https://twitter.com/" title="">
-            <i class="fa fa-twitter"></i>
-          </a>
-        </p>
-        <p>© Untitled | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
-      </nav>  
-    </div> 
+      </div> 
+    </div>
   </nav>
 </header>
-<main class="" id="main-collapse">
 
-
+<div class="section-container">
+  
 <!-- Add your site or app content here -->
-
+  <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-6">
 
@@ -134,8 +111,6 @@
           </div>
         </div>
         
-
-        
       </div>
 
       <div class="col-xs-12 col-md-6">
@@ -191,6 +166,10 @@
                 </div>
               </div>
 
+              
+            </div>
+
+            <div class="col-md-6">
               <h3 class="template-title-example">Default</h2>
               <div class="row">
                   <div class="col-md-6">
@@ -200,17 +179,6 @@
                 </div>
               </div>
 
-            </div>
-
-            <div class="col-md-6">
-              <h3 class="template-title-example">Secondary</h2>
-              <div class="row">
-                  <div class="col-md-6">
-                  <p><a href="" class="btn btn-info btn-lg">Secondary Large</a></p>
-                  <p><a href="" class="btn btn-info">Secondary </a></p>
-                  <p><a href="" class="btn btn-info btn-sm">Secondary Small</a></p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -256,15 +224,23 @@
 
       </div>
     </div>
- 
+  </div>
+</div>
 
-</main>
+<footer class="footer-container text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>© UNTITLED | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 <script>
-document.addEventListener("DOMContentLoaded", function (event) {
-  navbarToggleSidebar();
-  navActivePage();
-});
+  document.addEventListener("DOMContentLoaded", function (event) {
+     navActivePage();
+  });
 </script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
@@ -280,6 +256,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
   ga('send', 'pageview');
 </script>
 
---> <script type="text/javascript" src="./main.85741bff.js"></script></body>
+--> <script type="text/javascript" src="./main.70a66962.js"></script></body>
 
 </html>
